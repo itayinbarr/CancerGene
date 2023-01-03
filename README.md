@@ -5,8 +5,8 @@ This is a model trained to recognize two types of cancer:
 acute myeloid leukemia (AML) and acute lymphoblastic leukemia (ALL).
 
 This project demonstrates the process of handling DNA data, using PCA (Prinicle
-Component Analysis to reduce more than 7100 genes to 23 features,
-while minding to keep at least 90% of the variance.
+Component Analysis to reduce more than 7100 genes to less features,
+while minding to keep at least 95% of the variance.
 
 The training was done with logistic regression, after reviewing several 
 models and their accuracy levels.
