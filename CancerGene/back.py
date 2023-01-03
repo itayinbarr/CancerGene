@@ -44,9 +44,6 @@ def build_model():
     X_train = X_train_tr.T
     X_test = X_test_tr.T
 
-    # Clean up the gene description, and setting the gene accession
-    # number as the feature labels
-
     # Clean up the column names for training and testing data
     X_train.columns = X_train.iloc[1]
     X_train = X_train.drop(["Gene Description", "Gene Accession Number"]).apply(pd.to_numeric)

@@ -48,6 +48,5 @@ Dependencies
 - scikit-learn
 - Pandas
 - NumPy
-- IMDB
 --------
 # CancerGene
